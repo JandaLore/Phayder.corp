@@ -185,3 +185,25 @@ header{
 .info-header{
 	border-bottom: 1px solid black;
 }
+.welcome-yaffa{
+	background: url(images/yaffa_coming.png);
+	height: 300px;
+}
+.slider-h{
+	font-size: 30px;
+	color: #fff;
+	position: relative;
+	top: 220px;
+}
+.slider-text{
+	font-size: 13px;
+	color: #fff;
+	position: relative;
+	top: 220px;
+	font-family: tahoma;
+}
+.fe-news{
+	height: 300px;
+	background: url(images/sunset.png);
+}
+
