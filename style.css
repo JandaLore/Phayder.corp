@@ -222,11 +222,7 @@ header{
 	height: 300px;
 	background: url(images/sunset.png);
 }
-.rick{
-	height: 300px;
-	background: url(images/rick_news.png);
-}
-.welcome-yaffa{
-	background: url(images/yaffa_coming.png);
+.pvp-changes{
+	background: url(images/pvp_slide.png);
 	height: 300px;
 }
