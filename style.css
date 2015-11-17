@@ -190,6 +190,20 @@ header{
 .info-custom{
 	margin-top: 10px;
 }
+#top{
+	text-align: center;
+	height: 40px;
+	width: 100px;
+	background: #fff;
+	bottom: 200px;
+	cursor: pointer;
+	display: none;
+	font-size: 150%;
+	position: fixed;
+	left: 100px;
+	border-radius: 5px;
+	box-shadow: 0px 0px 0px 2px #fff;
+}
 /*FOOTER*/
 .footer{
 	height:200px;
