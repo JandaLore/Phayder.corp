@@ -202,9 +202,8 @@ header{
 /*FOOTER*/
 footer{
 	background: #cdd23c;
-	height: 200px;
-	position: fixed;
-	bottom:0px;
+	height: 150px;
+
 }
 .left-footer{
 	float: left;
