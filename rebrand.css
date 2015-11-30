@@ -6,6 +6,9 @@
 p{
 	text-indent: 10px;
 }
+html, body{
+	height: 100%;
+}
 #loading{
 	display: none;
 }
@@ -123,6 +126,10 @@ header{
 .utility-links li a:hover{
 	background: #e1e742;
 }
+.main-content{
+	min-height: 100%;
+	margin-bottom: -150px;
+}
 /*PLAYER INFO BLOCK*/
 .player-info{
 	width: 45%;
@@ -173,7 +180,6 @@ header{
 }
 #Inquisitor{
 	display: block;
-	height: 500px;
 }
 .page{
 	display: none;
