@@ -1,2 +1,0 @@
-# Phayder.corp
-Clan site

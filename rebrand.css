@@ -1,0 +1,202 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+p{
+	text-indent: 10px;
+}
+#loading{
+	display: none;
+}
+.loadpic{
+	position: absolute;
+    top: 430px;
+    left: 560px;
+    font-size: 30px;
+}
+.fa{
+-webkit-animation-name: spin;
+    -webkit-animation-duration: 2000ms;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-name: spin;
+    -moz-animation-duration: 2000ms;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    -ms-animation-name: spin;
+    -ms-animation-duration: 2000ms;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+    animation-name: spin;
+    animation-duration: 2000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@-ms-keyframes spin {
+    from { -ms-transform: rotate(0deg); }
+    to { -ms-transform: rotate(360deg); }
+}
+@-moz-keyframes spin {
+    from { -moz-transform: rotate(0deg); }
+    to { -moz-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+    from { -webkit-transform: rotate(0deg); }
+    to { -webkit-transform: rotate(360deg); }
+}
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+.wrapper-full-width{
+	width: 100%;
+}
+.hor-list{
+	list-style-type: none;
+}
+.hor-list li{
+	float: left;
+	margin-right: 10px;
+}
+.hor-list li a{
+	padding: 10px 15px;
+	color: #000;
+}
+.notes{
+	border-left: 1px solid #000;
+	padding:11px 18px;
+	margin-left: 40px;
+	box-shadow: inset 5px 0px 0px 0px #e1e742;
+	background: rgba(0,0,0,.1);
+}
+.page-header{
+	border-bottom: 1px solid #cdd23c;
+}
+.active a{
+	background: #e1e742;
+}
+header{
+	background: #cdd23c;
+}
+.upper-header{
+	height: 100px;
+	border-bottom:1px solid #000;
+	box-shadow: 0px 5px 0px 0px #e1e742;
+}
+.logo{
+	margin-top: 10px;
+	float: left;
+}
+.logo-main{
+	background: url(images/logo.png) no-repeat;
+	height: 80px;
+	width: 189px;
+	float: left;
+}
+.clan-name{
+	font-size: 30px;
+	color: #000;
+	text-shadow: 0px 3px 7px rgba(0,0,0,.3);
+	padding-top: 10px;
+	float: right;
+}
+.navigation{
+	float: right;
+	margin-top: 10px;
+	margin-right: 20px;
+}
+.navigation li a:hover{
+	background: #e1e742;
+}
+.lower-header{
+	height: 50px;
+}
+.utility-links{
+	float: left;
+	margin-top: 10px;
+}
+.utility-links li a:hover{
+	background: #e1e742;
+}
+/*PLAYER INFO BLOCK*/
+.player-info{
+	width: 45%;
+	height: 250px;
+	margin-right: 10px;
+	margin-top: 20px;
+	float: left;
+	background: url(images/info-bg.png);
+}
+.members-wrapper{
+	border-top: 1px solid #000;
+	border-radius: 5px;
+	margin-top: -3px;
+	padding: 5px 5px;
+}
+.row-fluid .player-info:last-child{
+	margin-right: 0;
+}
+.text-info{
+	float: left;
+	width: 75%;
+	color: #000;
+}
+.short-info{
+	height: 100px;
+	padding-left: 10px;
+}
+.text-info ul{
+	float: left;
+	list-style-type: none;
+	margin-left: 5px;
+}
+.photo-info{
+	float: right;
+	position: relative;
+	height: 200px;
+	width: 125px;
+	border:1px solid #000;
+	box-shadow: inset 0px 0px 2px 0px rgba(0,0,0,.4);
+}
+.faction{
+	position: absolute;
+	top: 143px;
+}
+/*TABS*/
+.active-tab{
+
+}
+#Inquisitor{
+	display: block;
+	height: 500px;
+}
+.page{
+	display: none;
+}
+.tab-controls{
+	height: 20px;
+	margin-left: 10px;
+}
+.tab-controls li{
+	margin-right: 0px;
+}
+.tab-controls a{
+	text-decoration: none;
+	border: 1px solid #000;
+    border-bottom: none;
+	background: #cdd23c;
+}
+.tab-controls a:hover{
+	padding:15px 18px 10px;
+	background: #e1e742;
+}
+.tab-controls .current a{
+	padding:15px 18px 10px;
+	background: #e1e742;
+}
+
