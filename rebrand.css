@@ -199,4 +199,19 @@ header{
 	padding:15px 18px 10px;
 	background: #e1e742;
 }
+/*FOOTER*/
+footer{
+	background: #cdd23c;
+	height: 200px;
+	position: fixed;
+	bottom:0px;
+}
+.left-footer{
+	float: left;
+	width: 40%;
+}
+.right-footer{
+	float: right;
+	width: 40%;
+}
 

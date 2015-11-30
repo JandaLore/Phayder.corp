@@ -33,40 +33,51 @@
 </script>
 </head>
 <body>
-<header class="wrapper-full-width">
-	<div class="container">
-		<div class="row-fluid upper-header">
-			<div class="logo">
-				<div class="logo-main">
+	<header class="wrapper-full-width">
+		<div class="container">
+			<div class="row-fluid upper-header">
+				<div class="logo">
+					<div class="logo-main">
+					</div>
+					<p class="clan-name">Phayder corp.</p>
 				</div>
-				<p class="clan-name">Phayder corp.</p>
+					<ul class="navigation hor-list">
+						<li><a href="#Home" onclick="showContent('home.html')">Home</a></li>
+						<li><a href="#Rules" onclick="showContent('rules.html')">Rules</a></li>
+						<li><a href="#Members" onclick="showContent('members.html')">Members</a></li>
+					</ul>
 			</div>
-				<ul class="navigation hor-list">
-					<li><a href="#Home" onclick="showContent('home.html')">Home</a></li>
-					<li><a href="#Rules" onclick="showContent('rules.html')">Rules</a></li>
-					<li><a href="#Members" onclick="showContent('members.html')">Members</a></li>
-				</ul>
-		</div>
-		<div class="row-fluid lower-header">
-				<ul class="utility-links hor-list">
-					<li><a href="http://www.gamersfirst.com/fallenearth/">Game's web site</a></li>
-					<li><a href="http://forums.gamersfirst.com/forum/746-fallen-earth/">Game's forum</a></li>
-					<li><a href="http://jandalore.github.io/Helper/">New player's Build Guid</a></li>
-				</ul>
-		</div>
-	</div>
-</header>
-	<div class="container">
-		<div id="content" class="row-fluid">
-			
-		</div>
-		<div id="loading">
-			<div class="loadpic">
-				<i class="fa fa-spinner"></i>Loading...
+			<div class="row-fluid lower-header">
+					<ul class="utility-links hor-list">
+						<li><a href="http://www.gamersfirst.com/fallenearth/">Game's web site</a></li>
+						<li><a href="http://forums.gamersfirst.com/forum/746-fallen-earth/">Game's forum</a></li>
+						<li><a href="http://jandalore.github.io/Helper/">New player's Build Guid</a></li>
+					</ul>
 			</div>
 		</div>
-	</div>
-	
+	</header>
+		<div class="container">
+			<div id="content" class="row-fluid">
+				
+			</div>
+			<div id="loading">
+				<div class="loadpic">
+					<i class="fa fa-spinner"></i>Loading...
+				</div>
+			</div>
+		</div>
+	<footer class="wrapper-full-width">
+		<div class="container">
+			<div class="row-fluid">
+				<div class="left-footer">
+					<img src="images/fe.png">
+				</div>
+				<div class="right-footer"></div>
+			</div>
+		</div>
+	</footer>
+
+
 <script type="text/javascript">
 $(document).ready(function() {
     $(".navigation a").click(function(event) {
