@@ -147,6 +147,7 @@ header{
 	width: 925px;
 	box-shadow: 0px 5px 17px -5px #000;
 	margin-top: 20px;
+	margin-bottom: 50px;
 }
 .utility-links.hor-list li a{
 	box-shadow: inset 1px -10px 14px -10px #fff;
@@ -187,6 +188,9 @@ header{
 }
 .row-fluid .player-info:last-child{
 	margin-right: 0;
+}
+.custom-info{
+	overflow: hidden;
 }
 .text-info{
 	float: left;
